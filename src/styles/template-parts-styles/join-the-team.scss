@@ -1,0 +1,31 @@
+.join-the-team {
+  padding: 40px 24px;
+  font-family: Inter;
+  font-style: normal;
+  background: url(".src/images/sun.png") top-right no-repeat;
+
+  .join-the-team__header {
+    margin-bottom: 15px;
+    color: var(--main_black, #2c2c2c);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+  }
+
+  .join-the-team__text {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+  }
+
+  .join-the-team__button {
+    padding: 15px 24px;
+    border-radius: 40px;
+    background: #3f78e3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
