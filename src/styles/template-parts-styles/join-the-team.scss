@@ -1,14 +1,16 @@
+@import "../variables.scss";
+
 .join-the-team {
   padding: 40px 24px;
   font-family: Inter;
   font-style: normal;
   border-radius: 16px;
-  background-color: #f3f5fa;
+  background-color: $sectionBgColor;
   background: url(".src/images/sun.png") top-right no-repeat;
 
   .join-the-team__header {
     margin-bottom: 15px;
-    color: var(--main_black, #2c2c2c);
+    color: $blackTextColor;
     font-size: 20px;
     font-weight: 600;
     line-height: 150%;
@@ -16,7 +18,7 @@
 
   .join-the-team__text {
     margin-bottom: 32px;
-    color: var(--main_black, #2c2c2c);
+    color: $blackTextColor;
     font-size: 16px;
     line-height: 150%;
     font-weight: 400;
@@ -26,11 +28,12 @@
     margin: 0 auto;
     padding: 15px 24px;
     border-radius: 40px;
-    background: #3f78e3;
-    color: #fff;
+    background-color: $brandColor;
+    color: $whiteColor;
     font-size: 18px;
     font-weight: 500;
     line-height: 100%;
+    cursor: pointer;
   }
 
   @media (min-width: 768px) {
@@ -51,8 +54,8 @@
 
     .join-the-team__button {
       margin: 0;
-      border: 2px solid #3f78e3;
-      color: #4675eb;
+      border: 2px solid $brandColor;
+      color: $blueTextColor;
       font-size: 17px;
       line-height: 130%;
     }
