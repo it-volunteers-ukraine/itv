@@ -2,6 +2,8 @@
   padding: 40px 24px;
   font-family: Inter;
   font-style: normal;
+  border-radius: 16px;
+  background-color: #f3f5fa;
   background: url(".src/images/sun.png") top-right no-repeat;
 
   .join-the-team__header {
@@ -14,12 +16,14 @@
 
   .join-the-team__text {
     margin-bottom: 32px;
+    color: var(--main_black, #2c2c2c);
     font-size: 16px;
     line-height: 150%;
     font-weight: 400;
   }
 
   .join-the-team__button {
+    margin: 0 auto;
     padding: 15px 24px;
     border-radius: 40px;
     background: #3f78e3;
@@ -27,5 +31,47 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 100%;
+  }
+
+  @media (min-width: 768px) {
+    padding: 24px 30px;
+
+    .join-the-team__header {
+      margin-bottom: 16px;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 120%;
+    }
+
+    .join-the-team__text {
+      margin-bottom: 24px;
+      font-size: 17px;
+      line-height: 140%;
+    }
+
+    .join-the-team__button {
+      margin: 0;
+      border: 2px solid #3f78e3;
+      color: #4675eb;
+      font-size: 17px;
+      line-height: 130%;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    padding: 32px 48px;
+
+    .join-the-team__header {
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+
+    .join-the-team__text {
+      margin-bottom: 32px;
+      font-size: 24px;
+    }
+    .join-the-team__button {
+      font-size: 24px;
+    }
   }
 }
