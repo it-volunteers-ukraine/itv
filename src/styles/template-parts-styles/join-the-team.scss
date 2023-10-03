@@ -36,7 +36,7 @@
     cursor: pointer;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: $tabletWidth) {
     padding: 24px 30px;
 
     .join-the-team__header {
@@ -61,7 +61,7 @@
     }
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktopWidth) {
     padding: 32px 48px;
 
     .join-the-team__header {
